@@ -1,6 +1,6 @@
 //% color=#FFA500 weight=0 icon="\uf247" block="Objects"
 namespace objects {
-    //% block="create object using values: $num keys: $keys"
+    //% block="create object using values: $values keys: $keys"
     export function objectify(values: [any], keys: [string]) {
         let obj: any = {};
         for (let i = 0; i < keys.length; i++) {
