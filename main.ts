@@ -1,3 +1,4 @@
+//% color=#FFA500 weight=0 icon="\uf247" block="Objects"
 namespace objects {
     //% block="create object using values: $num keys: $keys"
     export function objectify(values: [any], keys: [string]) {
